@@ -2,8 +2,9 @@
 #include <unistd.h>
 
 /**
- * main-this is my main function 
- * Return:this return 1 when success
+ * main - this is my main program
+ *
+ * Return: my return value goes here
  */
 
 int main(void)
