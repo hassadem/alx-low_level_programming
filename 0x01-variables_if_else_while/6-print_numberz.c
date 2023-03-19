@@ -1,13 +1,17 @@
 #include <stdio.h>
+
 /**
- * main - this main function to run the number program 
- * Return: once the code ternimate it print 0
+ * main - this is where all the program runs from
+ *
+ * Return: to print 0 when successful
  */
+
 int main(void)
 {
 	int i;
-	
-	for (i = 0 ; i < 9 ; i++)
-		putchar(i);
+
+	for (i = 0 ; i < 10 ; i++)
+		putchar(i + '0');
+	putchar('\n');
 	return (0);
 }
