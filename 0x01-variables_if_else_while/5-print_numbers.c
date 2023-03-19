@@ -1,15 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - this main function to run the number program 
- * Return: once the code ternimate it print 0
+ * main - main function that holds the program
+ *
+ * Return: always 0
  */
 
 int main(void)
 {
 	int i;
-	for (i = 0 ; i < 9 ; i++)
-		printf("%d", i);
-	printf("\n");
+
+	for (i = 0 ; i < 10 ; i++)
+		printf(i);
+	printf('\n');
 	return (0);
 }
