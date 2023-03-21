@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mian - this is the main function for the program
+ * main - this is the main function for the program
  * _putchar - this is to print _putchar alphabet
  * Return: this return 0 since its interger
  */
