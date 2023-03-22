@@ -10,22 +10,23 @@ int main(void)
 {
 	int i = 3;
 
-	int first = 1;
-	int second = 2;
+	long int first = 1;
+	long int second = 2;
 
-	int next = first + second;
-	printf("%d, ", first);
-	printf("%d, ", second);
+	long int next = first + second;
+
+	printf("%lu, ", first);
+	printf("%lu, ", second);
 
 	while (i <= 50)
 	{
 		if (i == 50)
 		{
-			printf("%d \n", next);
+			printf("%lu \n", next);
 		}
 		else
 		{
-			printf("%d, ", next);
+			printf("%lu, ", next);
 		}
 		first = second;
 		second = next;
