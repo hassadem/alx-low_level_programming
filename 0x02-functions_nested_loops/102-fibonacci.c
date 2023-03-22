@@ -14,6 +14,8 @@ int main(void)
 	int second = 2;
 
 	int next = first + second;
+	printf("%d, ", first);
+	printf("%d, ", second);
 
 	while (i <= 50)
 	{
