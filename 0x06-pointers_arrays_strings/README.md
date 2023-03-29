@@ -1,0 +1,1 @@
+More explanation on array_string_pointer
